@@ -1,0 +1,53 @@
+body {
+    background-color: hsla(0, 45%, 89%, 0.6);
+    margin: 20px;
+}
+
+.MainDiv {  
+    background-color: hsl(0, 0%, 100%);  
+    padding: 10px;  
+    border-radius: 4px;  
+    font-family: "Lexend Deca", serif;  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+}  
+
+.sub1, .sub2, .sub3, .sub4, .sub5 {  
+    color: white;
+    width: 300px;  
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}  
+
+.sub1,.sub3,.sub5  {background-color: #600000;}  
+.sub2,.sub4  {background-color: hsl(277, 64%, 61%);}  
+
+p {  
+    font-size: small;  
+    font-weight: 300;  
+}  
+
+.BUTTON {
+    /* color: #600000; */
+    font-weight: 700;
+    padding: 15px 16px;
+    border-radius: 40px;
+    margin-top: 30px;
+    border: none; 
+    outline: none;
+} 
+  
+.BUTTON:hover {
+    background-color: #271e1e;
+    color: white;
+}    
+
+.sub1 .BUTTON, .sub3 .BUTTON, .sub5 .BUTTON {
+    color: #800080;
+}
+
+.sub2 .BUTTON, .sub4 .BUTTON {
+    color: #600000;
+}

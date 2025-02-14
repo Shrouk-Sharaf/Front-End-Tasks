@@ -1,0 +1,124 @@
+body {
+    /* Flex Properties */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* Background Properties */
+    background-color: hsl(233, 47%, 7%); 
+}
+
+.card {  
+    /* Flex Properties */
+    display: flex;
+    flex-direction: row-reverse;
+
+    /* Dimensions Poperties */
+    width: 950px;
+    height: 400px; 
+
+    /* Background Properties */
+    background-color: hsl(244, 38%, 16%);  
+
+    /* Margin & Padding */
+    margin: 10% 150px 0px 150px;
+    padding: 0px;
+
+    /* Border Properties */
+    border-radius: 10px;
+}
+
+.subcard {
+    /* Flex Properties */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* Font Properties */
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    /* Margin */
+    margin: 60px;
+}
+
+p {
+    /* Font Properties */
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.subcard2 {
+    /* Font Properties */
+    font-size: 20px;
+    font-weight: bold;  
+
+    /* Margin & Padding */
+    margin-top: 40px;
+    margin-left: 0;
+    padding-left: 0;
+
+    /* List Properties */
+    display: inline;
+    list-style: none;  
+
+    /* Styling Properties */
+    color: white;
+}
+
+.subcard2 li {
+    display: inline;
+    margin-right: 48px;
+}
+
+.subcard3 {
+    /* Styling Properties */
+    color: hsla(0, 0%, 100%, 0.6);
+
+    /* Font Properties */
+    font-family: "Inter", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 11px;
+    font-optical-sizing: auto;
+
+    /* Margin & Padding */
+    margin-top: -5px;
+    margin-left: 0;
+    padding-left: 0;
+
+    /* List Properties */
+    list-style: none;
+}
+
+.subcard3 li {
+    display: inline;
+    margin-right: 30px;
+    margin-top: 10px; 
+}
+
+.image1{
+    /* Dimesnsions Properties */
+    width: 500px;
+    height: 400px;
+
+    /* Border Properties */
+    border-radius: 0px 10px 10px 0px;
+}  
+
+
+h1 {
+    /* Styling Properties */
+    color: white;
+}
+
+.subcard h1 span {
+    /* Styling Properties */
+    color: hsl(277, 64%, 61%)
+}
+
+.subcard p {
+    /* Styling Properties */
+    color: hsla(0, 0%, 100%, 0.6);
+}

@@ -1,0 +1,284 @@
+body {  
+    background-color: hsl(0, 0%, 98%);  
+    background : linear-gradient(to bottom, hsl(0, 0%, 98%) 92%, hsl(233, 26%, 24%) 8%); 
+    padding: 20px 60px 0px 60px;  
+    font-family: "Public Sans", serif;  
+    font-optical-sizing: auto;  
+    font-weight: 400;  
+    font-style: normal;   
+}  
+
+.maindiv1 {  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;  
+}  
+
+.div1sub2 {  
+    width: 400px;  
+    color: rgba(128, 128, 128, 0.664);  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;  
+}  
+
+.maindiv2 {  
+    display: flex;  
+    flex-direction: row;  
+    margin-top: 70px;  
+    gap: 50px;  
+}  
+
+.Div2sub1 {  
+    margin-top: 100px;  
+    display: flex;  
+    flex-direction: column;  
+    gap: 2px;  
+    width: 50%;  
+}  
+
+h1 {  
+    color: hsl(233, 26%, 24%);
+    font-size: 50px;
+    text-align: start;
+}  
+
+.Div2sub1 p {  
+    color: rgba(128, 128, 128, 0.664);  
+    font-weight: lighter;  
+}  
+
+.Div2sub2 {  
+    width: 50%;  
+    margin: 20px;  
+}  
+
+.Div2sub2 img {  
+    max-width: 100%;   
+}  
+
+.maindiv3 {  
+    margin-top: 70px;  
+}  
+
+.maindiv3 p {  
+    color: rgba(128, 128, 128, 0.664);  
+    font-weight: light;  
+    width: 53%;  
+    margin-top: 5px;  
+}  
+
+.maindiv4 {  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-evenly;  
+    gap: 10px;  
+    margin-top: 100px;  
+}  
+
+.maindiv4 h3 {  
+    color: hsl(233, 26%, 24%);  
+}  
+
+.maindiv4 p {  
+    color: rgba(128, 128, 128, 0.664);  
+    font-weight: light;  
+}  
+
+.maindiv5 {  
+    margin-top: 100px;  
+    text-align: center;  
+    border-radius: 9px;  
+}  
+
+.maindiv5 img {  
+    width: 100%;  
+    border-radius: 9px 9px 0px 0px;  
+}  
+
+.div5sub1 {  
+    color: rgba(128, 128, 128, 0.664);  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;  
+    gap: 1.5%;  
+}  
+
+.pargraph {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+.pargraph h4 {  
+    color: hsl(233, 26%, 24%);  
+}  
+
+.div5sub1sub1, .div5sub1sub2, .div5sub1sub3, .div5sub1sub4 {  
+    background-color: hsl(0, 0%, 100%);  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    border-radius: 9px;  
+}  
+
+.maindiv6 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+}  
+
+.div6sub1 {  
+    color: hsl(0, 0%, 100%);  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;  
+    width: 39%;  
+}  
+
+.div6sub1sub1 {  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;  
+    width: 50%;  
+}  
+
+.div6sub1sub1sub {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin-top: -14px;
+}  
+
+.div6sub2 {  
+    color: rgba(128, 128, 128, 0.664);  
+}  
+
+.button {  
+    font-family: 'Roboto Condensed', Arial, sans-serif;   
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));  
+    color: white;   
+    border: none;   
+    border-radius: 25px; 
+    padding: 12px 20px;   
+    cursor: pointer;   
+    transition: background-color 0.3s, transform 0.2s;   
+}  
+
+.button:hover {  
+    background: linear-gradient(90deg, hsl(136, 65%, 40%), hsl(192, 70%, 40%));   
+}
+
+
+@media only screen and (max-width: 600px){
+    body {
+      padding: 10px 20px;
+    }
+    
+
+    .div1sub3 {
+        background: url('/icon-hamburger.svg') no-repeat center;
+        background-size: contain;
+        width: 70px;
+        height: 30px;
+    }
+      
+    .maindiv1 .button {
+        opacity: 0;
+        pointer-events: none;
+    }
+  
+    .div1sub2 {
+        display: none;
+    }
+  
+    .maindiv2 {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .Div2sub1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .Div2sub1 h1 , p{
+        margin-top: 0;
+    }
+  
+    .Div2sub2 {
+      width: 100%;
+    }
+
+    .maindiv3, h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+  
+    .maindiv4 {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .div4sub1,.div4sub2, .div4sub3, .div4sub4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .maindiv5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maindiv5 p{
+        margin-top: 5%;
+    }
+
+    .div5sub1 {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .div5sub1sub1, .div5sub1sub2, .div5sub1sub3, .div5sub1sub4 {
+      width: 100%;
+    }
+  
+    .maindiv6 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .div6sub1 {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .div6sub1 img{
+        margin-bottom: 40px;
+    }
+  
+    .div6sub1sub1 {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .div6sub2 p{
+        margin-top: 15px;
+    }
+  }

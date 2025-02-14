@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>180 Daraga</title>
+    <link rel="stylesheet" href="Task1.css">
+</head>
+
+<body>
+    <div class="form-cont">
+        <img src="/180daraga.png" class="logo">
+        <h4>Registration</h4>
+        <form method="post">
+            <label for="name" style="font-weight: bold;">Username</label><br>
+            <input type="text" style="border-radius: 5px; width: 390px; height: 25px;" id="name" name="name" required><br><br>
+
+            <label for="Password" style="font-weight: bold;">Password</label><br>
+            <input type="password" style="border-radius: 5px; width: 390px; height: 25px;" id="Password" name="password" placeholder="Enter a complex password (max 8 characters)" required><br><br>
+
+            <label style="font-weight: bold;">Age</label><br>
+            <input type="radio" id="age1" name="Age">
+            <label for="age1">0 - 18</label><br>
+            <input type="radio" id="age2" name="Age">
+            <label for="age2">19 - 30</label><br>
+            <input type="radio" id="age3" name="Age">
+            <label for="age3">31 - 50</label><br>
+            <input type="radio" id="age4" name="Age">
+            <label for="age4">51+</label><br><br>
+
+            <label for="G" style="font-weight: bold;">Gender</label>
+            <select name="Gender" style="border-radius: 5px; height: 25px;" id="G">
+                <option>Male</option>
+                <option>Female</option>
+            </select><br><br>
+
+            <input type="submit" style="color: white; background-color: #1f1f1f;
+            width: 400px; margin: auto; border: none; 
+            border-radius: 5px; padding-block: 6px; display: flex;"  value="Register">
+        </form>
+    </div>
+</body>

@@ -1,0 +1,3 @@
+font --> Arial
+colors --> #1F1F1F (body background , button)
+	   #70060 (form background)
